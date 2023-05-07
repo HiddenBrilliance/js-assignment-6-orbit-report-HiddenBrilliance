@@ -6,15 +6,9 @@ import { OrbitListComponent } from './orbit-list/orbit-list.component';
 import { OrbitCountsComponent } from './orbit-counts/orbit-counts.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    OrbitListComponent,
-    OrbitCountsComponent
-  ],
-  imports: [
-    BrowserModule
-  ],
+  declarations: [AppComponent, OrbitListComponent, OrbitCountsComponent],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
